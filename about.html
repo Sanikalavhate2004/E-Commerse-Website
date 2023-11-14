@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista</title>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="header">
+    <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a  href="shop.html">Shop</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a class="high" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact<A/a></li>
+            <li><a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a></li>
+            <a href="#" id="close"><ion-icon name="close-outline"></ion-icon></a>
+        </ul>
+    </div>
+    <div id="mo">
+        <a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a>
+        <ion-icon name="menu-outline" id="bar"></ion-icon>
+    </div>
+</section>
+
+<section id="page-header" class="about-header">
+<h2>Know Us</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+</section>
+
+<section id="about-head" class="section-p1">
+    <img src="images/about1.jpg" alt="">
+    <div>
+        <h2>Who Are We?</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis blanditiis dolorem neque ex. Veniam natus, quo recusandae mollitia eveniet ipsum inventore ad voluptates magni eaque maxime obcaecati neque minima expedita, nemo dolor laudantium, fugiat perferendis. Quidem delectus, corrupti veniam dolorum nesciunt, veritatis aliquid at possimus exercitationem, dolorem iste incidunt totam ullam tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis obcaecati facilis sequi neque porro officiis vitae, inventore ab corrupti sapiente illo officia ut eaque est adipisci optio voluptas veritatis tempora. At alias inventore in distinctio vel reprehenderit saepe accusantium ut officia laudantium, ipsa quae facere dolorem eveniet possimus consequuntur.</p>
+    </div>
+</section>
+
+<section id="news" class="section-p1 section-m1">
+    <div class="news-text">
+        <h4>Sign up to get more updates</h4>
+        <p>Get E-mail updates on latest deals and <span>special offers</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your E-mail address">
+        <button class="white">Sign Up</button>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="images/logo.png" alt="">
+        <h4>Contact</h4>
+        <p>Address:125 Stella Road, Vasai, Mumbai</p>
+        <p>Phone:(+91) 1234567891</p>
+        <p>Hours:10:00 - 18:00, Mon-Sat</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-pinterest"></ion-icon>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">Delievery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; 2023 Fashionista -All Rights Reserved</p>
+    </div>
+</footer>
+
+<script>
+    var mainimg = document.getElementById('main-img');
+    var smallimg = document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick = function(){
+        mainimg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        mainimg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        mainimg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        mainimg.src = smallimg[3].src;
+    }
+</script>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
